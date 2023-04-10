@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch": "watch 'npm run build' ./directory-you-want-to-track"
+    "dev": "webpack",
+    "watch": "webpack build --watch"
   },
   "author": "Christian Valeri",
   "license": "ISC",
