@@ -1,8 +1,7 @@
-/* *{
+*{
     margin: 0rem;
     padding: 0rem;
 }
-img{
-    height: 10rem;
-    width: 1rem;
-} */
+#home p{
+    color: red;
+}
