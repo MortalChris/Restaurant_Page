@@ -6,18 +6,17 @@ function createHome(){
         home.setAttribute("id","home");
         contentDiv.appendChild(home);
 
-    const header = document.createElement("header");
-        header.setAttribute("id","homeHeader");
-        header.innerText = "Restuarant Page";
-        home.appendChild(header);
+
+    const heroDiv = document.createElement("div");
+        home.appendChild(heroDiv);
     const image = document.createElement("img");
-        image.setAttribute("id","homeImage");
+        image.setAttribute("id","home-Image");
         image.src = "dist\images\deep-dish-pizza.jpg";
-        home.appendChild(image);
+        heroDiv.appendChild(image);
     const paragraph = document.createElement("p");
-        paragraph.setAttribute("id","homeParagraph");
+        paragraph.setAttribute("id","home-Paragraph");
         paragraph.innerText  = "This restuarant is the best restuant in the world!";
-        home.appendChild(paragraph);
+        heroDiv.appendChild(paragraph);
 
 };
 

@@ -1,7 +1,45 @@
+:root{
+
+}
 *{
     margin: 0rem;
     padding: 0rem;
 }
-#home p{
-    color: blue;
+#home{
+    display: grid;
+    /* justify-content: center;
+    align-content: center; */
+    place-items: center;
+    grid-auto-columns: 1fr; 
+    grid-template-rows: 0.4fr 1fr 0.4fr; 
+    grid-template-areas: 
+    "header"
+    "hero"
+    "footer"
+    ;
+}
+#home header{
+    grid-area: header;
+    margin: 1rem;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+#home nav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+#home nav a{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    padding-right: 1rem;
+}
+#home #heroDiv{
+    grid-area: hero;
+}
+#home #footer{
+    grid-area: footer;
 }
