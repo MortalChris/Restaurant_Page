@@ -18,7 +18,7 @@
     "footer"
     ;
 }
-#home header{
+#home-Header{
     grid-area: header;
     Display: flex;
 	flex-direction: row;
@@ -31,10 +31,10 @@
     font-size: 3rem;
     width: 100%;
 }
-#home header p{
+#home-Header p{
     margin-left: 1rem;
 }
-#home nav{
+#navbar{
 	/* flex-direction: row;
 	flex-wrap: nowrap; */
     /* padding-left: 65rem; */

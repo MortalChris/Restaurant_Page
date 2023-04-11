@@ -3,10 +3,12 @@ import './style.css';
 
 function webpage() {
     createHome();
+    const contentDiv = document.getElementById("content");
+    
     const header = document.createElement("header");
         header.setAttribute("id","home-Header");
         const headerTitle = document.createElement("p");
-        headerTitle.innerText = "Restuarant Page";
+        headerTitle.textContent = "Resturant Title";
         header.appendChild(headerTitle);
         home.appendChild(header);
 
