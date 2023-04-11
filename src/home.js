@@ -6,7 +6,6 @@ function createHome(){
         home.setAttribute("id","home");
         contentDiv.appendChild(home);
 
-
     const heroDiv = document.createElement("div");
         home.appendChild(heroDiv);
     const image = document.createElement("img");

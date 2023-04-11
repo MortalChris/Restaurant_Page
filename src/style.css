@@ -20,26 +20,39 @@
 }
 #home header{
     grid-area: header;
-    margin: 1rem;
-    display: flex;
+    Display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: stretch;
+    background-color: aqua;
+    padding: 1rem;
+    font-size: 3rem;
+    width: 100%;
+}
+#home header p{
+    margin-left: 1rem;
 }
 #home nav{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
+	/* flex-direction: row;
+	flex-wrap: nowrap; */
+    /* padding-left: 65rem; */
 }
 #home nav a{
-    display: flex;
     justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
-    padding-right: 1rem;
+    padding-right: 3rem;
 }
 #home #heroDiv{
     grid-area: hero;
+    background-color: slateblue;
+}
+#home p{
+
 }
 #home #footer{
     grid-area: footer;
+    background-color: darkorchid;
 }

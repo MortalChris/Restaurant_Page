@@ -5,11 +5,16 @@ function webpage() {
     createHome();
     const header = document.createElement("header");
         header.setAttribute("id","home-Header");
-        header.innerText = "Restuarant Page";
+        const headerTitle = document.createElement("p");
+        headerTitle.innerText = "Restuarant Page";
+        header.appendChild(headerTitle);
         home.appendChild(header);
+
         const nav = document.createElement("nav");
             header.appendChild(nav);
-            
+        // const restName = document.createElement("a");
+        //     restName.innerText = "Restuarant Page";
+        //     nav.appendChild(restName);
         const homeTab = document.createElement("a");
             homeTab.innerText = "Home";
             nav.appendChild(homeTab);
