@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 :root{
-
+    --main-clr: #1B2733;
+    --sec-clr: #255762;
+    --tert-clr: #458167;
+    --quad-clr: #B9CC39;   
+    --fift-clr: #F9CC10;
 }
 *{
     margin: 0rem;
     padding: 0rem;
+    font-family: 'Limelight', cursive;
 }
 #home{
     display: grid;
@@ -26,13 +32,15 @@
 	justify-content: space-between;
 	align-items: baseline;
 	align-content: stretch;
-    background-color: aqua;
-    padding: 1rem;
+    background-color: var(--main-clr);
+    color: var(--fift-clr);
+    padding: 1rem 0rem 1rem 0rem;
     font-size: 3rem;
     width: 100%;
 }
 #home-Header p{
     margin-left: 1rem;
+    
 }
 #navbar{
 	/* flex-direction: row;
@@ -45,23 +53,29 @@
 	align-content: stretch;
     padding-right: 3rem;
 }
-#home #heroDiv{
+#heroDiv {
     grid-area: hero;
     background-image: url(https://wallpapercave.com/wp/wc1813154.jpg);
-    height: 40rem;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 47rem;
     width: 100%;
-    color: white;
+    color: var(--fift-clr);
 }
 
 #home-hero-title{
-    text-align: center;
-    font-size: 4rem;
+    font-size: 10rem;
 }
 #home-Paragraph{
-    text-align: center;
     font-size: 4rem;
+    color: var(--fift-clr);
 }
-#home #footer{
+#footer{
     grid-area: footer;
-    background-color: darkorchid;
+    height: 10.7rem;
+    background-color: var(--main-clr);
 }

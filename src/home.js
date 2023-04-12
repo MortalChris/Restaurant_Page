@@ -19,7 +19,7 @@ function createHome(){
         heroDiv.appendChild(heroTitle);
     const paragraph = document.createElement("p");
         paragraph.setAttribute("id","home-Paragraph");
-        paragraph.innerText  = "This restuarant is the best restuant in the world!";
+        paragraph.innerText  = "We serve the best pizza you can find in Houston!";
         heroDiv.appendChild(paragraph);
 };
 

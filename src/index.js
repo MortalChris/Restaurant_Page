@@ -3,12 +3,12 @@ import './style.css';
 
 function webpage() {
     createHome();
-    // const contentDiv = document.getElementById("content");
+    const contentDiv = document.getElementById("content");
     
     const header = document.createElement("header");
         header.setAttribute("id","home-Header");
         const headerTitle = document.createElement("p");
-        headerTitle.textContent = "Resturant Title";
+        headerTitle.textContent = "Mama Mia's Pizzeria";
         header.appendChild(headerTitle);
         home.appendChild(header);
 
@@ -24,7 +24,10 @@ function webpage() {
             contactTab.innerText = "Contact";
             nav.appendChild(contactTab);
 
-        const footer = document.createElement("footer");
+        const footer = document.createElement("div");
+            footer.setAttribute("id","footer");
+            footer.innerText = "Created by Christian Valeri";
+            contentDiv.appendChild(footer);
             
 };
 webpage();
