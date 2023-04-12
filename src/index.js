@@ -1,6 +1,6 @@
 import {createHome} from './home';
 import {createContact} from './contact';
-import {creacreateMenuteHome} from './menu';
+import {createMenu} from './menu';
 import './style.css';
 
 function webpage() {
@@ -14,9 +14,12 @@ function webpage() {
         header.appendChild(headerTitle);
         contentDiv.appendChild(header);
 
-        createHome();
-        
+        // createHome();
+        // createMenu();
+        // createContact();
+
         const nav = document.createElement("nav");
+            nav.setAttribute("id","navbar")
             header.appendChild(nav);
         const homeTab = document.createElement("a");
             homeTab.innerText = "Home";
@@ -32,7 +35,6 @@ function webpage() {
             footer.setAttribute("id","footer");
             footer.innerText = "Created by Christian Valeri";
             contentDiv.appendChild(footer);
-            
 
             homeTab.addEventListener("click", function(){
                 home.style.display = "block";
@@ -49,6 +51,7 @@ function webpage() {
                 contact.style.display = "none";
                 menu.style.display = "block";
             });
+        
 };
 webpage();
 

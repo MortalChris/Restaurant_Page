@@ -13,7 +13,7 @@
 }
 #footer{
     grid-area: footer;
-    height: 10.7rem;
+    height: 10.41rem;
     color: var(--quad-clr);
     background-color: var(--main-clr);
     text-align: center;
@@ -51,11 +51,18 @@
     margin-left: 1rem;
     
 }
-nav a{
+#navbar a{
     justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
     padding-right: 3rem;
+    cursor: pointer;
+}
+#navbar a:hover{
+    color: var(--tert-clr);
+}
+#navbar a:active{
+    
 }
 #heroDiv {
     grid-area: hero;
