@@ -1,8 +1,10 @@
 import {createHome} from './home';
+import {createContact} from './contact';
+import {creacreateMenuteHome} from './menu';
 import './style.css';
 
 function webpage() {
-    createHome();
+
     const contentDiv = document.getElementById("content");
     
     const header = document.createElement("header");
@@ -10,8 +12,10 @@ function webpage() {
         const headerTitle = document.createElement("p");
         headerTitle.textContent = "Mama Mia's Pizzeria";
         header.appendChild(headerTitle);
-        home.appendChild(header);
+        contentDiv.appendChild(header);
 
+        createHome();
+        
         const nav = document.createElement("nav");
             header.appendChild(nav);
         const homeTab = document.createElement("a");
@@ -29,6 +33,22 @@ function webpage() {
             footer.innerText = "Created by Christian Valeri";
             contentDiv.appendChild(footer);
             
+
+            homeTab.addEventListener("click", function(){
+                home.style.display = "block";
+                contact.style.display = "none";
+                menu.style.display = "none";
+            });
+            contactTab.addEventListener("click", function(){
+                home.style.display = "none";
+                contact.style.display = "block";
+                menu.style.display = "none";
+            });
+            menuTab.addEventListener("click", function(){
+                home.style.display = "none";
+                contact.style.display = "none";
+                menu.style.display = "block";
+            });
 };
 webpage();
 

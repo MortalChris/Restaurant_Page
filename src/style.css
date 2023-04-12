@@ -14,7 +14,9 @@
 #footer{
     grid-area: footer;
     height: 10.7rem;
+    color: var(--quad-clr);
     background-color: var(--main-clr);
+    text-align: center;
 }
 /* =============================================Home Page=========================================================== */
 #home{
@@ -49,7 +51,7 @@
     margin-left: 1rem;
     
 }
-#home nav a{
+nav a{
     justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
@@ -57,7 +59,7 @@
 }
 #heroDiv {
     grid-area: hero;
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/08/13/52628/pizza-02.jpg);
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/08/13/52628/pizza-02.jpg); 
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
