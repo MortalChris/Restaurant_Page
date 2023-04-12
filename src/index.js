@@ -3,7 +3,7 @@ import './style.css';
 
 function webpage() {
     createHome();
-    const contentDiv = document.getElementById("content");
+    // const contentDiv = document.getElementById("content");
     
     const header = document.createElement("header");
         header.setAttribute("id","home-Header");
@@ -14,9 +14,6 @@ function webpage() {
 
         const nav = document.createElement("nav");
             header.appendChild(nav);
-        // const restName = document.createElement("a");
-        //     restName.innerText = "Restuarant Page";
-        //     nav.appendChild(restName);
         const homeTab = document.createElement("a");
             homeTab.innerText = "Home";
             nav.appendChild(homeTab);
@@ -26,6 +23,9 @@ function webpage() {
         const contactTab = document.createElement("a");
             contactTab.innerText = "Contact";
             nav.appendChild(contactTab);
+
+        const footer = document.createElement("footer");
+            
 };
 webpage();
 

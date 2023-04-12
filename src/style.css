@@ -11,7 +11,7 @@
     align-content: center; */
     place-items: center;
     grid-auto-columns: 1fr; 
-    grid-template-rows: 0.4fr 1fr 0.4fr; 
+    /* grid-template-rows: 0.4fr 1fr 0.4fr;  */
     grid-template-areas: 
     "header"
     "hero"
@@ -47,10 +47,19 @@
 }
 #home #heroDiv{
     grid-area: hero;
-    background-color: slateblue;
+    background-image: url(https://wallpapercave.com/wp/wc1813154.jpg);
+    height: 40rem;
+    width: 100%;
+    color: white;
 }
-#home p{
 
+#home-hero-title{
+    text-align: center;
+    font-size: 4rem;
+}
+#home-Paragraph{
+    text-align: center;
+    font-size: 4rem;
 }
 #home #footer{
     grid-area: footer;
