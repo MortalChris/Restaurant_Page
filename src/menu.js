@@ -1,4 +1,5 @@
 function createMenu(){
+    
     const contentDiv = document.getElementById("content");
 
     const menu = createElement(div);

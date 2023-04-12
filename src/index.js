@@ -8,15 +8,13 @@ function webpage() {
     const contentDiv = document.getElementById("content");
     
     const header = document.createElement("header");
-        header.setAttribute("id","home-Header");
+        header.setAttribute("id","Header");
         const headerTitle = document.createElement("p");
         headerTitle.textContent = "Mama Mia's Pizzeria";
         header.appendChild(headerTitle);
         contentDiv.appendChild(header);
 
         createHome();
-        createMenu();
-        createContact();
 
         const nav = document.createElement("nav");
             nav.setAttribute("id","navbar")
@@ -36,6 +34,9 @@ function webpage() {
             footer.innerText = "Created by Christian Valeri";
             contentDiv.appendChild(footer);
 
+            createContact();
+            createMenu();
+
             homeTab.addEventListener("click", function(){
                 home.style.display = "block";
                 contact.style.display = "none";
@@ -51,7 +52,7 @@ function webpage() {
                 contact.style.display = "none";
                 menu.style.display = "block";
             });
-        
+            
 };
 webpage();
 

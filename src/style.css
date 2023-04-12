@@ -33,7 +33,7 @@
     ;
 }
 
-#home-Header{
+#Header{
     grid-area: header;
     Display: flex;
 	flex-direction: row;
@@ -47,7 +47,7 @@
     font-size: 3rem;
     width: 100%;
 }
-#home-Header p{
+#Header p{
     margin-left: 1rem;
     
 }
