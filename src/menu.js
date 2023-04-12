@@ -11,7 +11,7 @@ function createMenu(){
         menu.appendChild(menuDiv1);
         const imgDiv1 = document.createElement("img");
             imgDiv1.setAttribute("id","imgDiv1");
-            imgDiv1.src = :
+            // imgDiv1.src = ;
             menuDiv1.appendChild(imgDiv1);
     
     const menuDiv2 = document.createElement("div");
@@ -20,7 +20,7 @@ function createMenu(){
         menu.appendChild(menuDiv2);
         const imgDiv2 = document.createElement("img");
             imgDiv2.setAttribute("id","imgDiv2");
-            imgDiv2.src = :
+            // imgDiv2.src = ;
             menuDiv2.appendChild(imgDiv2);
 
     const menuDiv3 = document.createElement("div");
@@ -29,7 +29,7 @@ function createMenu(){
         menu.appendChild(menuDiv3);
         const imgDiv3 = document.createElement("img");
             imgDiv3.setAttribute("id","imgDiv3");
-            imgDiv3.src = :
+            // imgDiv3.src = ;
             menuDiv3.appendChild(imgDiv3);
 
     const menuDiv4 = document.createElement("div");
@@ -38,7 +38,7 @@ function createMenu(){
         menu.appendChild(menuDiv4);
         const imgDiv4 = document.createElement("img");
             imgDiv4.setAttribute("id","imgDiv4");
-            imgDiv4.src = :
+            // imgDiv4.src = ;
             menuDiv4.appendChild(imgDiv4);
 };
 

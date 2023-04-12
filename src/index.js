@@ -14,9 +14,9 @@ function webpage() {
         header.appendChild(headerTitle);
         contentDiv.appendChild(header);
 
-        // createHome();
-        // createMenu();
-        // createContact();
+        createHome();
+        createMenu();
+        createContact();
 
         const nav = document.createElement("nav");
             nav.setAttribute("id","navbar")
