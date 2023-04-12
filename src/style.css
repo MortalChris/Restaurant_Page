@@ -11,6 +11,12 @@
     padding: 0rem;
     font-family: 'Limelight', cursive;
 }
+#footer{
+    grid-area: footer;
+    height: 10.7rem;
+    background-color: var(--main-clr);
+}
+/* =============================================Home Page=========================================================== */
 #home{
     display: grid;
     /* justify-content: center;
@@ -24,6 +30,7 @@
     "footer"
     ;
 }
+
 #home-Header{
     grid-area: header;
     Display: flex;
@@ -42,11 +49,6 @@
     margin-left: 1rem;
     
 }
-#navbar{
-	/* flex-direction: row;
-	flex-wrap: nowrap; */
-    /* padding-left: 65rem; */
-}
 #home nav a{
     justify-content: space-between;
 	align-items: center;
@@ -55,7 +57,7 @@
 }
 #heroDiv {
     grid-area: hero;
-    background-image: url(https://wallpapercave.com/wp/wc1813154.jpg);
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/08/13/52628/pizza-02.jpg);
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -74,8 +76,6 @@
     font-size: 4rem;
     color: var(--fift-clr);
 }
-#footer{
-    grid-area: footer;
-    height: 10.7rem;
-    background-color: var(--main-clr);
-}
+
+
+/* =============================================Menu Page=========================================================== */
